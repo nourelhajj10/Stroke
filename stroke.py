@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Load data from Google Drive link
 #file_id = '1RPRn2gUaCesisx24IwQGZHcAGvR40nMh'
 #url = f"https://drive.google.com/uc?id={file_id}"
-stroke = pd.read_csv('C:\\Users\\User\\Desktop\\cleaned_stroke (1).csv')
+stroke = pd.read_csv('healthcare-dataset-stroke-data.csv')
 
 # Create a sidebar
 st.sidebar.title('Filter')
